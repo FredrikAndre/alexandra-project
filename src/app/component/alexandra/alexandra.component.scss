@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    margin: 2rem;
+    height: 48rem;
+    width: 30rem;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: #fff;
+
+    .tinder-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+
+        .tinderlogo {
+            width: 7rem;
+        }
+
+        img {
+            height: 22rem;
+            width: 20rem;
+        }
+    }
+
+    
+}
+
+
+
